@@ -1,7 +1,7 @@
 {
   "name": "color-bundle",
   "description": "Color conversion and manipulation with CSS string support (bundle)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "authors": [
     "Josh Junon <i.am.qix@gmail.com>",
