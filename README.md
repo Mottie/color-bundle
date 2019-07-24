@@ -4,22 +4,22 @@ Using the [CDN version of Qix-'s color](https://cdn.jsdelivr.net/npm/color@3.1.2
 
 Additionally, this bundle exposes all named colors in `Color.namedColors`.
 
-## Install via [npm](https://npmjs.org/)
-
-```bash
-$ npm install color-bundle
-```
-
 ## Usage
 
-```js
-const color = require("color-bundle");
-console.log(color("#bada55e5").rgb().toString());
-// => "rgba(186, 218, 85, 0.9)"
+* Download `color.min.js` from this repository.
+* Load it in your HTML in a script tag.
+* Use the global `Color` function to access the bundle:
 
-console.log(color.namedColors.rebeccapurple);
-// => [102, 51, 153] // [r, g, b]
-```
+  ```html
+  <script src="color.min.js" />
+  <script>
+  console.log(Color("#bada55e5").rgb().toString());
+  // => "rgba(186, 218, 85, 0.9)"
+
+  console.log(Color.namedColors.rebeccapurple);
+  // => [102, 51, 153] // [r, g, b]
+  </script>
+  ```
 
 ## Home page
 
