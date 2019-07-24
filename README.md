@@ -9,7 +9,6 @@ Additionally, this bundle exposes all named colors in `Color.namedColors`.
 * Download `color.min.js` from this repository.
 * Load it in your HTML in a script tag.
 * Use the global `Color` function to access the bundle:
-
   ```html
   <script src="color.min.js" />
   <script>
@@ -24,4 +23,5 @@ Additionally, this bundle exposes all named colors in `Color.namedColors`.
 ## Home page
 
 Source Repo: https://github.com/Qix-/color
+
 Demo page: https://npm.runkit.com/color
