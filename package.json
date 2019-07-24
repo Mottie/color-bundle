@@ -1,0 +1,31 @@
+{
+  "name": "color-bundle",
+  "description": "Color conversion and manipulation with CSS string support (bundle)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "authors": [
+    "Josh Junon <i.am.qix@gmail.com>",
+    "Heather Arthur <fayearthur@gmail.com>",
+    "Maxime Thirouin"
+  ],
+  "homepage": "https://github.com/Qix-/color",
+  "keywords": [
+    "color",
+    "colour",
+    "css"
+  ],
+  "main": "color.js",
+  "scripts": {
+    "build": "rollup -c && node build/finalize.js",
+    "version": "npm run build && git add ."
+  },
+  "devDependencies": {
+    "color": "^3.1.2",
+    "rollup": "^1.17.0",
+    "rollup-plugin-cjs-es": "^0.9.0",
+    "rollup-plugin-external-globals": "^0.3.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "terser": "^4.1.2"
+  }
+}
