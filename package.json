@@ -1,14 +1,14 @@
 {
   "name": "color-bundle",
   "description": "Color conversion and manipulation with CSS string support (bundle)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "authors": [
     "Josh Junon <i.am.qix@gmail.com>",
     "Heather Arthur <fayearthur@gmail.com>",
     "Maxime Thirouin"
   ],
-  "homepage": "https://github.com/Qix-/color",
+  "homepage": "https://github.com/Mottie/color-bundle",
   "keywords": [
     "color",
     "colour",
